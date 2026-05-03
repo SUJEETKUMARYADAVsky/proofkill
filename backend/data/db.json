@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "2eada31bb86943819288fb33150f1a0f",
+      "name": "Test User",
+      "username": "test-user",
+      "email": "test+bot@example.com",
+      "password": "$2b$10$JSroh2sSc.W80LHsWT8O6ODqzJo1hDPmdqI6KlwW9gMtQf5D3Vv.W",
+      "role": "admin",
+      "createdAt": "2026-04-29T07:17:44.305Z"
+    },
+    {
+      "id": "6c4735795de249a7b2fed166b3a37f71",
+      "name": "Admin User",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "$2b$10$Kjov0D4GpJEQwla/QGnjOeukVwSTYfo8eTKnGGNC4e.0uRlkZjqxa",
+      "role": "admin",
+      "createdAt": "2026-04-29T12:55:13.7149781+05:30"
+    },
+    {
+      "id": "a630269078c244b78502b2125a2d6455",
+      "name": "Sujeet Kumar",
+      "username": "sujeet",
+      "email": "sujeetiit53321@gmail.com",
+      "password": "$2b$10$jlr4nAf8VXXEZMk3wiz9YulrXT2ALaR/1LQT0OD1WoY/B9TAC3QG2",
+      "role": "student",
+      "createdAt": "2026-04-29T07:43:56.019Z"
+    },
+    {
+      "id": "8b64e6748fef4973998414b7051baa54",
+      "name": "sujeetkumar",
+      "username": "sujeetkumar",
+      "email": "sujeetiit5689@gmail.com",
+      "password": "$2b$10$vq9OlXa.SGoZHq20iWEZJuiCyGYDh2npko6oE0lNPOAaoU57fZ5.y",
+      "role": "student",
+      "createdAt": "2026-05-03T06:48:20.709Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "4338150fff5645b3be04cf19987ba81f",
+      "title": "Build REST API",
+      "description": "Design and implement a production-ready REST API with authentication, validation, and clean resource routes.",
+      "difficulty": "Medium",
+      "createdBy": "seed",
+      "createdAt": "2026-04-29T07:17:44.306Z",
+      "updatedAt": "2026-04-29T07:17:44.306Z"
+    },
+    {
+      "id": "477ba9454cc44a3daa1d568f58337381",
+      "title": "Create Login System",
+      "description": "Build a secure login and registration flow with password hashing, token-based sessions, and protected routes.",
+      "difficulty": "Easy",
+      "createdBy": "seed",
+      "createdAt": "2026-04-29T07:17:44.306Z",
+      "updatedAt": "2026-04-29T07:17:44.306Z"
+    },
+    {
+      "id": "e459d40c3b214079a699aa49424341b3",
+      "title": "Build Todo App",
+      "description": "Create a task manager with add, edit, complete, and delete actions plus a tidy responsive UI.",
+      "difficulty": "Easy",
+      "createdBy": "seed",
+      "createdAt": "2026-04-29T07:17:44.306Z",
+      "updatedAt": "2026-04-29T07:17:44.306Z"
+    },
+    {
+      "id": "55f4cb30c9cc416188db007561e87dc4",
+      "title": "Create Blog Backend",
+      "description": "Implement a blog backend with posts, categories, author management, and CRUD endpoints for content workflows.",
+      "difficulty": "Medium",
+      "createdBy": "seed",
+      "createdAt": "2026-04-29T07:17:44.306Z",
+      "updatedAt": "2026-04-29T07:17:44.306Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "a6a4f612569f469cae6b3f4b360caecd",
+      "userId": "2eada31bb86943819288fb33150f1a0f",
+      "projectId": "4338150fff5645b3be04cf19987ba81f",
+      "githubLink": "https://github.com/SUJEETKUMARYADAVsky/pizza-delivery.git",
+      "status": "reviewed",
+      "rating": 5,
+      "feedback": "Excellent work! Top quality submission.",
+      "reviewedAt": "2026-04-29T07:38:39.186Z",
+      "createdAt": "2026-04-29T07:24:09.312Z"
+    },
+    {
+      "id": "4f545d7c387f4e6ebde0bd9f1f167c81",
+      "userId": "69f1a2f83495435e7d25ab6e",
+      "projectId": "4338150fff5645b3be04cf19987ba81f",
+      "githubLink": "https://github.com/SUJEETKUMARYADAVsky",
+      "status": "pending",
+      "rating": null,
+      "feedback": "good",
+      "reviewedAt": null,
+      "createdAt": "2026-04-29T07:43:08.961Z"
+    },
+    {
+      "id": "416e05c04b9c42f19d453ead92c2e4c8",
+      "userId": "a630269078c244b78502b2125a2d6455",
+      "projectId": "4338150fff5645b3be04cf19987ba81f",
+      "githubLink": "https://github.com/SUJEETKUMARYADAVsky",
+      "status": "pending",
+      "rating": null,
+      "feedback": "done",
+      "reviewedAt": null,
+      "createdAt": "2026-05-03T06:19:36.739Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "c0f4446057d44fb48ad662dd9a9e809c",
+      "userId": "2eada31bb86943819288fb33150f1a0f",
+      "type": "submission",
+      "createdAt": "2026-04-29T07:24:09.314Z"
+    },
+    {
+      "id": "b72a9f44450e4c03b64b6bbec31e82f8",
+      "userId": "69f1a2f83495435e7d25ab6e",
+      "type": "submission",
+      "createdAt": "2026-04-29T07:43:08.963Z"
+    },
+    {
+      "id": "d0cac16af6064373821aa9d2464bb3ca",
+      "userId": "a630269078c244b78502b2125a2d6455",
+      "type": "submission",
+      "createdAt": "2026-05-03T06:19:36.741Z"
+    }
+  ]
+}
